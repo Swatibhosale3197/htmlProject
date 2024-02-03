@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form action="/action.php">
+        <h3>Student Registration Form</h3>
+
+        <p>First Name:</p>
+        <input type="text" placeholder="Enter your Firstname"> (max 30 characters A to Z)
+        <br>
+        <p>Last Name:</p>
+        <input type="text" placeholder="Enter your Lastname"> (max 30 characters A to Z)
+        <br>
+        <p>Date of Birth:</p>
+        <input type="date">
+        <br>
+        <p>E-mail id:</p>
+        <input type="text" placeholder="Enter your e-mail id">
+        <br> 
+        <p> Mobile No:</p>
+        <input type="number"> ( 10 characters only)
+        <br>
+        <p>Gender:</p>
+        Male <input type="radio" value="Male" name="Gender">
+        Female <input type="radio" value="Male" name="Gender">
+        <br> 
+        <p>Address:</p>
+        <textarea name="Address"  cols="30" rows="4"> </textarea>
+        <br>
+        <p>City:</p>
+        <select name="city" id="city">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Nashik">Nashik</option>
+            <option value="Chhatrapati Sambhajinagar">Chhatrapati Sambhajinagar</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Amravati">Amravati</option>
+        </select>
+        <br>
+        <p>Pin code</p>
+        <input type="text" placeholder="Enter pincode here">
+        <br>
+        <p>State</p>
+        <input type="text" placeholder="Enter State here">
+        <br>
+        <p>Country</p>
+        <input type="text" placeholder="India">
+        <br>
+        <p>Hobbies</p>
+        <label for="Hobbies">
+            <input type="checkbox" value="Singing" name="Singing"> Singing
+            <input type="checkbox" value="Arts" name="Arts"> Arts
+            <input type="checkbox" value="Sports" name="Sports"> Sports
+            <input type="checkbox" value="Dancing" name="Dancing"> Dancing
+            <input type="checkbox" value="others" name="others"> others <input type="text">
+        </label>
+            <br><br>
+            <caption>Qualification</caption>
+            <table>
+                
+                <tr>
+                    <td> <b>Sr no</b></td>
+                    <td> <b>Examination</b></td>
+                    <td> <b>Board</b></td>
+                    <td> <b>Percentage</b></td>
+                    <td> <b>Year of passing</b></td>
+                </tr>
+                <tr>
+                    <td>1 </td>
+                    <td>Class X </td>
+                    <td> <input type="text" name="ClassX_Board" maxlength="30">  </td>
+                    <td> <input type="text" name="ClassX_Board" maxlength="30"> </td>
+                    <td> <input type="text" name="ClassX_Board" maxlength="30"> </td>
+                </tr>
+                <tr>
+                    <td> 2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" name="ClassXII_Board" maxlength="30"> </td>
+                    <td> <input type="text" name="ClassXII_Board" maxlength="30"> </td>
+                    <td><input type="text" name="ClassXII_Board" maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td> 3</td>
+                    <td> Graduation </td>
+                    <td><input type="text" name="Graduation_Board" maxlength="30"> </td>
+                    <td><input type="text" name="Graduation_Board" maxlength="30"> </td>
+                    <td><input type="text" name="Graduation_Board" maxlength="30"> </td>
+                </tr>
+                <tr>
+                    <td> 4.</td>
+                    <td> Masters</td>
+                    <td><input type="text" name="Masters_Board" maxlength="30"> </td>
+                    <td><input type="text" name="Masters_Board" maxlength="30"> </td>
+                    <td><input type="text" name="Masters_Board" maxlength="30"> </td>
+                </tr>
+
+
+            </table>
+            <br>
+            <p>Courses Applied For</p>
+            B.Sc<input type="radio" value="B.Sc" name="Courses">
+            B.Com <input type="radio" value="B.Com" name="Courses">
+            B.A.<input type="radio" value=" B.A." name="Courses">
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+
+
+       
+
+        
+
+
+    </form>
+    
+</body>
+</html>
